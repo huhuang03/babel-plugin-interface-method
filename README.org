@@ -1,3 +1,25 @@
+What I want is translate interface with method to interface with const with method.
+#+BEGIN_SRC ts
+interface Foo {
+    bar: number;
+    hello() {
+        console.log(`thiz.bar`);
+    }
+}
+#+END_SRC
+
+to
+
+#+BEGIN_SRC ts
+export interface Foo {
+    bar: number;
+}
+export const FooMethod {
+    hello: (thiz: Foo) => {
+        console.log(`thiz.bar`);
+    }
+}
+#+END_SRC
 * Links
 - https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/user-handbook.md
 - https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md
