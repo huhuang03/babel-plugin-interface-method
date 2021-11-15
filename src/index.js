@@ -6,46 +6,23 @@
 //
 
 
-// module.exports = function ({types: t}) {
-//     return {
-//         visitor: {
-//             Identifier(path) {
-//                 if (path.node.name === 'foo') {
-//                     path.node.name = 'bar';
-//                 }
-//             }
-//             // BinaryExpression(path) {
-//             //     if (path.node.operator !== "===") {
-//             //         return;
-//             //     }
-//             //     path.node.left = t.identifier("sebmck");
-//             //     path.node.right = t.identifier("dork");
-//             // }
-//         }
-//     }
-// }
-//
-// export default function ({types: t}) {
-//     return {
-//         visitor: {
-//           Identifier(path) {
-//             if (path.node.name === 'foo') {
-//               path.node.name = 'bar';
-//             }
-//           }
-//           // BinaryExpression(path) {
-//           //     if (path.node.operator !== "===") {
-//           //         return;
-//           //     }
-//           //     path.node.left = t.identifier("sebmck");
-//           //     path.node.right = t.identifier("dork");
-//           // }
-//         }
-//     }
-// }
-
-function sum(a, b) {
-    return a + b;
+const plugin =  function ({types: t}) {
+    return {
+        visitor: {
+          Identifier(path) {
+            if (path.node.name === 'foo') {
+              path.node.name = 'bar';
+            }
+          }
+          // BinaryExpression(path) {
+          //     if (path.node.operator !== "===") {
+          //         return;
+          //     }
+          //     path.node.left = t.identifier("sebmck");
+          //     path.node.right = t.identifier("dork");
+          // }
+        }
+    }
 }
 
-module.exports = sum;
+export default plugin;
