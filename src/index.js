@@ -1,12 +1,4 @@
-// import * as babylon from "babylon";
-
-// const code = `function square(n) {
-//   return n * n;
-// }`;
-//
-
-
-const plugin =  function ({types: t}) {
+const plugin = function ({types: t}) {
     return {
         visitor: {
           Identifier(path) {
@@ -14,15 +6,8 @@ const plugin =  function ({types: t}) {
               path.node.name = 'bar';
             }
           }
-          // BinaryExpression(path) {
-          //     if (path.node.operator !== "===") {
-          //         return;
-          //     }
-          //     path.node.left = t.identifier("sebmck");
-          //     path.node.right = t.identifier("dork");
-          // }
         }
     }
 }
 
-export default plugin;
+module.exports = plugin;
