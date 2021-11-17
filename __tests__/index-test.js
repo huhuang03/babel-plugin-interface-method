@@ -2,8 +2,9 @@ const babel = require('babel-core');
 const plugin = require('../src');
 
 const example = `
-var foo = 1;
-if (foo) console.log(foo);
+interface Good {
+    id: string;
+}
 `;
 
 it('works', () => {

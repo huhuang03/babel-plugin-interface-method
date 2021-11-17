@@ -1,4 +1,5 @@
 What I want is translate interface with method to interface with const with method.
+
 #+BEGIN_SRC ts
 interface Foo {
     bar: number;
@@ -23,3 +24,10 @@ export const FooMethod {
 * Links
 - https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/user-handbook.md
 - https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md
+
+* TODOS
+not impl, I think it's too hard for me now, because I think that webstorm can't recognize the babel plugin.
+
+And so it's hard to write an webstorm plugin. Maybe after I have many many times.
+
+Oh, it's too hard for me.
