@@ -41,30 +41,55 @@ it('use a plugin?', () => {
   console.log(output.code);
 })
 
-// function MyPlugin() {
-//   const rst: {visitor: Visitor} = {
-//     visitor: {
-//       Identifier: path => {
-//         console.log('identifier')
-//       },
-//       StringLiteral: path => {
-//         console.log('string literal')
-//       }
-//     }
-//   }
-//   return rst;
-// }
-//
-// it("boring plugin", () => {
-//   const code = String.raw`
-//   function greet(name) {
-//   return 'Hello ' + name;
-// }
-// console.log(greet('tanhauhau')); // Hello tanhauhau
-//   `;
-//
-//   const output = transform(code, {
-//     plugins: [MyPlugin]
-//   })
-//   console.log(output.code);
-// })
+interface Rst {
+  visitor: Visitor
+}
+
+function MyPlugin() {
+
+  const rst: Rst = {
+    visitor: {
+      Identifier: path => {
+        console.log('identifier')
+      },
+      StringLiteral: path => {
+        console.log('string literal')
+      }
+    }
+  }
+  return rst;
+
+  return {
+    visitor: {
+      Identifier(path) {
+        if (path.isIdentifier({name: 'n'})) {
+          path.node.name = 'x';
+        }
+      }
+    }
+
+  }
+}
+
+
+it("boring plugin", () => {
+  const code = String.raw`
+  function greet(name) {
+  return 'Hello ' + name;
+}
+console.log(greet('tanhauhau')); // Hello tanhauhau
+  `;
+
+  const output = transform(code, {
+    plugins: [
+      MyPlugin,
+      // function myPlugin() {
+      //
+      // }
+      ]})
+  console.log(output.code);
+})
+
+it('haha', function () {
+
+});
