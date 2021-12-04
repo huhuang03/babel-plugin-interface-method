@@ -20,6 +20,12 @@ export const FooMethod {
     }
 }
 #+END_SRC
+
+* TODOS
+- how the babel with ts?
+
 * Links
 - https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/user-handbook.md
 - https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md
+
+- https://github.com/babel/babel/blob/master/packages/babel-plugin-transform-typescript/src/index.js

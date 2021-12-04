@@ -1,9 +1,11 @@
 const babel = require('babel-core');
 const plugin = require('../src');
 
-const example = `
-var foo = 1;
-if (foo) console.log(foo);
+// Can I have the ts visitor??
+const interface1 = `
+interface Foo {
+    i: number;
+}
 `;
 
 it('works', () => {
