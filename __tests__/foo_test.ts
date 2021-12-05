@@ -28,7 +28,7 @@ it('use a plugin?', () => {
       function myFirstPlugin() {
         return {
           visitor: {
-            Identifier(path) {
+            Identifier(path: any) {
               if (path.isIdentifier({name: 'n'})) {
                 path.node.name = 'x';
               }
@@ -38,7 +38,7 @@ it('use a plugin?', () => {
       }
     ]
   })
-  console.log(output.code);
+  console.log(output?.code);
 })
 
 interface Rst {
@@ -61,7 +61,7 @@ function MyPlugin() {
 
   return {
     visitor: {
-      Identifier(path) {
+      Identifier(path: any) {
         if (path.isIdentifier({name: 'n'})) {
           path.node.name = 'x';
         }
@@ -83,11 +83,8 @@ console.log(greet('tanhauhau')); // Hello tanhauhau
   const output = transform(code, {
     plugins: [
       MyPlugin,
-      // function myPlugin() {
-      //
-      // }
       ]})
-  console.log(output.code);
+  console.log(output?.code);
 })
 
 it('haha', function () {
