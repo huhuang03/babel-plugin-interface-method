@@ -1,8 +1,8 @@
-interface Foo {
-  aa: number;
-}
+// interface Foo {
+//   aa: number;
+// }
 
-const aa: Foo = {
+const aa: {aa: number} = {
   aa: 2
 }
 
