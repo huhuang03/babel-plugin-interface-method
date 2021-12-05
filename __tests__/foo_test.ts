@@ -1,3 +1,4 @@
+import * as babel from '@babel/core';
 import { parse } from '@babel/parser';
 import {traverse, transform, Visitor} from '@babel/core';
 import generate from '@babel/generator';
@@ -46,24 +47,33 @@ interface Rst {
 }
 
 function MyPlugin() {
-
-  const rst: Rst = {
-    visitor: {
-      Identifier: path => {
-        console.log('identifier')
-      },
-      StringLiteral: path => {
-        console.log('string literal')
-      }
-    }
-  }
-  return rst;
-
   return {
     visitor: {
+      StringLiteral(path: any) {
+        const concat = path.node.value
+          .split('')
+          .map((c: any) => babel.types.stringLiteral(c))
+          .reduce((prev: any, curr: any) => {
+            return babel.types.binaryExpression('+', prev, curr);
+          });
+        path.replaceWith(concat);
+        path.skip();
+      },
+
       Identifier(path: any) {
-        if (path.isIdentifier({name: 'n'})) {
-          path.node.name = 'x';
+        if (
+          !(
+            path.parentPath.isMemberExpression() &&
+            path.parentPath
+              .get('object')
+              .isIdentifier({ name: 'console' }) &&
+            path.parentPath.get('property').isIdentifier({ name: 'log' })
+          )
+        ) {
+          path.node.name = path.node.name
+            .split('')
+            .reverse()
+            .join('');
         }
       }
     }
