@@ -86,7 +86,3 @@ console.log(greet('tanhauhau')); // Hello tanhauhau
       ]})
   console.log(output?.code);
 })
-
-it('haha', function () {
-
-});
