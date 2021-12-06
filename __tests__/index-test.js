@@ -12,4 +12,3 @@ it('works', () => {
   const {code} = babel.transform(example, {plugins: [plugin]});
   expect(code).toMatchSnapshot();
 });
-
