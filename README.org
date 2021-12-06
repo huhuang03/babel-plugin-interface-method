@@ -25,6 +25,8 @@ export const FooMethod {
 * TODOS
 Follow the guide, seems we need build babel which I thing output of my knowledge.
 
+Stop because we seems can't build babel-parser for now.
+
 - how the babel with ts?
 
 * Links

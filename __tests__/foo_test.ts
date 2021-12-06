@@ -9,7 +9,7 @@ it('should just run some code', function () {
   const ast = parse(code);
 
   traverse(ast, {
-    enter(path) {
+    enter(path: any) {
       console.log(path);
       if (path.isIdentifier({name: 'n'})) {
         path.node.name = 'x';
