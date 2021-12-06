@@ -22,6 +22,6 @@
     "typescript": "^4.5.2"
   },
   "resolutions": {
-    "@babel/parser": "portal:/D:/source/babel/packages/babel-parser"
+    "@babel/parser": "portal:../babel/packages/babel-parser"
   }
 }
