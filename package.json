@@ -15,6 +15,7 @@
     "@types/babel-core": "^6.25.7",
     "@types/babel-generator": "^6.25.4",
     "@types/babel__core": "^7.1.16",
+    "@types/babel__generator": "^7.6.3",
     "@types/jest": "^27.0.3",
     "eslint": "^8.4.0",
     "jest": "^27.4.3",
