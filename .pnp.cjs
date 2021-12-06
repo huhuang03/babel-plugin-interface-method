@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.16.0"],
             ["@babel/generator", "npm:7.16.0"],
             ["@babel/helper-validator-identifier", "npm:7.15.7"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/preset-env", "virtual:b4ff093cd1ba6d0b68a7011305fa0ebd4cb71646b74e94a25ef06150009496c0929a194fabae5a85c678fa981e1e964df540f69fb181cabe15b78268b15c701e#npm:7.16.4"],
             ["@babel/traverse", "npm:7.16.3"],
             ["@types/babel__core", "npm:7.1.16"],
@@ -81,7 +81,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-compilation-targets", "virtual:5612f0ce311a7844500ba5948d5d47b8376a902bfa55b1e3797dd916bf18f7512ba75518521ba3bc2f39f6565fb127bcb8fee5b440624dbebaf9ac5f3566ebd0#npm:7.16.3"],
             ["@babel/helper-module-transforms", "npm:7.16.0"],
             ["@babel/helpers", "npm:7.16.3"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/template", "npm:7.16.0"],
             ["@babel/traverse", "npm:7.16.3"],
             ["@babel/types", "npm:7.16.0"],
@@ -462,13 +462,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@babel/parser", [
-        ["npm:7.16.4", {
-          "packageLocation": "./.yarn/cache/@babel-parser-npm-7.16.4-d2e53039b9-ce0a8f92f4.zip/node_modules/@babel/parser/",
+        ["portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A.", {
+          "packageLocation": "../babel/packages/babel-parser/",
           "packageDependencies": [
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/types", "npm:7.16.0"]
           ],
-          "linkType": "HARD",
+          "linkType": "SOFT",
         }]
       ]],
       ["@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression", [
@@ -2345,7 +2345,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@babel/template", "npm:7.16.0"],
             ["@babel/code-frame", "npm:7.16.0"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/types", "npm:7.16.0"]
           ],
           "linkType": "HARD",
@@ -2361,7 +2361,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-function-name", "npm:7.16.0"],
             ["@babel/helper-hoist-variables", "npm:7.16.0"],
             ["@babel/helper-split-export-declaration", "npm:7.16.0"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/types", "npm:7.16.0"],
             ["debug", "virtual:40c87ada7f2f684a486a15e9daad470176b55201376bfdeb15dad896f5233b78f99666966eda31038040b4d17aa8b8f8bf53fddc6773a558064319b9a0677061#npm:4.3.3"],
             ["globals", "npm:11.12.0"]
@@ -2744,7 +2744,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-babel__core-npm-7.1.16-2b06c54bf8-d5aa154ce8.zip/node_modules/@types/babel__core/",
           "packageDependencies": [
             ["@types/babel__core", "npm:7.1.16"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/types", "npm:7.16.0"],
             ["@types/babel__generator", "npm:7.6.3"],
             ["@types/babel__template", "npm:7.4.1"],
@@ -2768,7 +2768,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-babel__template-npm-7.4.1-fe1db49e53-649fe8b42c.zip/node_modules/@types/babel__template/",
           "packageDependencies": [
             ["@types/babel__template", "npm:7.4.1"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/types", "npm:7.16.0"]
           ],
           "linkType": "HARD",
@@ -3158,7 +3158,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.16.0"],
             ["@babel/generator", "npm:7.16.0"],
             ["@babel/helper-validator-identifier", "npm:7.15.7"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/preset-env", "virtual:b4ff093cd1ba6d0b68a7011305fa0ebd4cb71646b74e94a25ef06150009496c0929a194fabae5a85c678fa981e1e964df540f69fb181cabe15b78268b15c701e#npm:7.16.4"],
             ["@babel/traverse", "npm:7.16.3"],
             ["@types/babel__core", "npm:7.1.16"],
@@ -4978,7 +4978,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["istanbul-lib-instrument", "npm:5.1.0"],
             ["@babel/core", "npm:7.16.0"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@istanbuljs/schema", "npm:0.1.3"],
             ["istanbul-lib-coverage", "npm:3.2.0"],
             ["semver", "npm:6.3.0"]
@@ -5489,7 +5489,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-snapshot", "npm:27.4.2"],
             ["@babel/core", "npm:7.16.0"],
             ["@babel/generator", "npm:7.16.0"],
-            ["@babel/parser", "npm:7.16.4"],
+            ["@babel/parser", "portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."],
             ["@babel/plugin-syntax-typescript", "virtual:0062dfc9aa4307e257c1d4d7002e3b24a0fc7044552d7198edb7b5bcbfb6c37d2aaab5752222ea96f6fef0c0fbb1e3486518c2ba29357ce1cb11c2e56cda76d8#npm:7.16.0"],
             ["@babel/traverse", "npm:7.16.3"],
             ["@babel/types", "npm:7.16.0"],

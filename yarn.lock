@@ -320,14 +320,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.16.0, @babel/parser@npm:^7.16.3, @babel/parser@npm:^7.16.4, @babel/parser@npm:^7.7.2":
-  version: 7.16.4
-  resolution: "@babel/parser@npm:7.16.4"
+"@babel/parser@portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@babel/parser@portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."
   bin:
     parser: ./bin/babel-parser.js
-  checksum: ce0a8f92f440f2a12bc932f070a7b60c5133bf8a63f461841f9e39af0194f573707959d606c6fad1a2fd496a45148553afd9b74d3b8dd36cdb7861598d1f3e36
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@npm:^7.16.2":
   version: 7.16.2
