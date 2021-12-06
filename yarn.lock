@@ -1578,7 +1578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel-generator@npm:*":
+"@types/babel-generator@npm:*, @types/babel-generator@npm:^6.25.4":
   version: 6.25.4
   resolution: "@types/babel-generator@npm:6.25.4"
   dependencies:
@@ -1613,7 +1613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14":
+"@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14, @types/babel__core@npm:^7.1.16":
   version: 7.1.16
   resolution: "@types/babel__core@npm:7.1.16"
   dependencies:
@@ -1980,6 +1980,8 @@ __metadata:
     "@babel/preset-env": ^7.16.4
     "@babel/traverse": ^7.16.3
     "@types/babel-core": ^6.25.7
+    "@types/babel-generator": ^6.25.4
+    "@types/babel__core": ^7.1.16
     "@types/jest": ^27.0.3
     eslint: ^8.4.0
     jest: ^27.4.3
