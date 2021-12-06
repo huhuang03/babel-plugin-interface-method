@@ -41,8 +41,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/parser", "npm:7.16.4"],
             ["@babel/preset-env", "virtual:b4ff093cd1ba6d0b68a7011305fa0ebd4cb71646b74e94a25ef06150009496c0929a194fabae5a85c678fa981e1e964df540f69fb181cabe15b78268b15c701e#npm:7.16.4"],
             ["@babel/traverse", "npm:7.16.3"],
-            ["@types/babel-core", "npm:6.25.7"],
-            ["@types/babel-generator", "npm:6.25.4"],
             ["@types/babel__core", "npm:7.1.16"],
             ["@types/babel__generator", "npm:7.6.3"],
             ["@types/jest", "npm:27.0.3"],
@@ -2741,60 +2739,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["@types/babel-core", [
-        ["npm:6.25.7", {
-          "packageLocation": "./.yarn/cache/@types-babel-core-npm-6.25.7-11dbb8e660-cb3bd94abb.zip/node_modules/@types/babel-core/",
-          "packageDependencies": [
-            ["@types/babel-core", "npm:6.25.7"],
-            ["@types/babel-generator", "npm:6.25.4"],
-            ["@types/babel-template", "npm:6.25.2"],
-            ["@types/babel-traverse", "npm:6.25.7"],
-            ["@types/babel-types", "npm:7.0.11"],
-            ["@types/babylon", "npm:6.16.6"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@types/babel-generator", [
-        ["npm:6.25.4", {
-          "packageLocation": "./.yarn/cache/@types-babel-generator-npm-6.25.4-399f1b000d-a6f8298494.zip/node_modules/@types/babel-generator/",
-          "packageDependencies": [
-            ["@types/babel-generator", "npm:6.25.4"],
-            ["@types/babel-types", "npm:7.0.11"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@types/babel-template", [
-        ["npm:6.25.2", {
-          "packageLocation": "./.yarn/cache/@types-babel-template-npm-6.25.2-b59e374fae-ad4ced1819.zip/node_modules/@types/babel-template/",
-          "packageDependencies": [
-            ["@types/babel-template", "npm:6.25.2"],
-            ["@types/babel-types", "npm:7.0.11"],
-            ["@types/babylon", "npm:6.16.6"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@types/babel-traverse", [
-        ["npm:6.25.7", {
-          "packageLocation": "./.yarn/cache/@types-babel-traverse-npm-6.25.7-dc8deb9b12-770f3cf4a4.zip/node_modules/@types/babel-traverse/",
-          "packageDependencies": [
-            ["@types/babel-traverse", "npm:6.25.7"],
-            ["@types/babel-types", "npm:7.0.11"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@types/babel-types", [
-        ["npm:7.0.11", {
-          "packageLocation": "./.yarn/cache/@types-babel-types-npm-7.0.11-b4a19601f1-9b02719c7c.zip/node_modules/@types/babel-types/",
-          "packageDependencies": [
-            ["@types/babel-types", "npm:7.0.11"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["@types/babel__core", [
         ["npm:7.1.16", {
           "packageLocation": "./.yarn/cache/@types-babel__core-npm-7.1.16-2b06c54bf8-d5aa154ce8.zip/node_modules/@types/babel__core/",
@@ -2836,16 +2780,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/babel__traverse", "npm:7.14.2"],
             ["@babel/types", "npm:7.16.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@types/babylon", [
-        ["npm:6.16.6", {
-          "packageLocation": "./.yarn/cache/@types-babylon-npm-6.16.6-c0c46c4816-c011e028bc.zip/node_modules/@types/babylon/",
-          "packageDependencies": [
-            ["@types/babylon", "npm:6.16.6"],
-            ["@types/babel-types", "npm:7.0.11"]
           ],
           "linkType": "HARD",
         }]
@@ -3227,8 +3161,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/parser", "npm:7.16.4"],
             ["@babel/preset-env", "virtual:b4ff093cd1ba6d0b68a7011305fa0ebd4cb71646b74e94a25ef06150009496c0929a194fabae5a85c678fa981e1e964df540f69fb181cabe15b78268b15c701e#npm:7.16.4"],
             ["@babel/traverse", "npm:7.16.3"],
-            ["@types/babel-core", "npm:6.25.7"],
-            ["@types/babel-generator", "npm:6.25.4"],
             ["@types/babel__core", "npm:7.1.16"],
             ["@types/babel__generator", "npm:7.6.3"],
             ["@types/jest", "npm:27.0.3"],

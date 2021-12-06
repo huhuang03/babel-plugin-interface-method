@@ -1565,54 +1565,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel-core@npm:^6.25.7":
-  version: 6.25.7
-  resolution: "@types/babel-core@npm:6.25.7"
-  dependencies:
-    "@types/babel-generator": "*"
-    "@types/babel-template": "*"
-    "@types/babel-traverse": "*"
-    "@types/babel-types": "*"
-    "@types/babylon": "*"
-  checksum: cb3bd94abbe288bbc1419b8c0188c9d4853de34ff33b03b471f6c5bdccef72e53b672aa168a7028e3ef855501add4afa90f327e5f50b805d8f3e771342980d0d
-  languageName: node
-  linkType: hard
-
-"@types/babel-generator@npm:*, @types/babel-generator@npm:^6.25.4":
-  version: 6.25.4
-  resolution: "@types/babel-generator@npm:6.25.4"
-  dependencies:
-    "@types/babel-types": "*"
-  checksum: a6f8298494cd90899e215a8c31b8cabccc75fe951a173b750ac4625e2a0fb2e93eefbed1e5d44551479af30fe107e7681c944c279cad8eb9a5401b93dd7195dd
-  languageName: node
-  linkType: hard
-
-"@types/babel-template@npm:*":
-  version: 6.25.2
-  resolution: "@types/babel-template@npm:6.25.2"
-  dependencies:
-    "@types/babel-types": "*"
-    "@types/babylon": "*"
-  checksum: ad4ced1819fbaf7a9ea71a53c9f40cd921bd56d70d27f18ad3a32071dbc40453373a0c8943c1c07fd65ad7e255a5ca620dd827c911ce8f6c56b88ee57efcd823
-  languageName: node
-  linkType: hard
-
-"@types/babel-traverse@npm:*":
-  version: 6.25.7
-  resolution: "@types/babel-traverse@npm:6.25.7"
-  dependencies:
-    "@types/babel-types": "*"
-  checksum: 770f3cf4a4638fd36d82669c2994c8537f23727455f150fedf379df201880444081fea7162208b6019e4c30a68835c703d0446c11c780557ce9192cf27bc1174
-  languageName: node
-  linkType: hard
-
-"@types/babel-types@npm:*":
-  version: 7.0.11
-  resolution: "@types/babel-types@npm:7.0.11"
-  checksum: 9b02719c7cf5062c9ab656a3b4efe3dd79e7a4ab49b5a2ce18d4ec1cb326588a1b40fc03863c24c9dec962f56762c53ed06cdc2a1c241c84e76e54a37a6195fc
-  languageName: node
-  linkType: hard
-
 "@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14, @types/babel__core@npm:^7.1.16":
   version: 7.1.16
   resolution: "@types/babel__core@npm:7.1.16"
@@ -1651,15 +1603,6 @@ __metadata:
   dependencies:
     "@babel/types": ^7.3.0
   checksum: a797ea09c72307569e3ee08aa3900ca744ce3091114084f2dc59b67a45ee7d01df7865252790dbfa787a7915ce892cdc820c9b920f3683292765fc656b08dc63
-  languageName: node
-  linkType: hard
-
-"@types/babylon@npm:*":
-  version: 6.16.6
-  resolution: "@types/babylon@npm:6.16.6"
-  dependencies:
-    "@types/babel-types": "*"
-  checksum: c011e028bc09457b9a488e5ad8bc081b43c0c7919419343eaef95aeda5e5bb825dc93c323af8e60d97373702d94ae006016e7c641a9be24fef0d9f5ecc2e54c0
   languageName: node
   linkType: hard
 
@@ -1979,8 +1922,6 @@ __metadata:
     "@babel/parser": ^7.16.4
     "@babel/preset-env": ^7.16.4
     "@babel/traverse": ^7.16.3
-    "@types/babel-core": ^6.25.7
-    "@types/babel-generator": ^6.25.4
     "@types/babel__core": ^7.1.16
     "@types/babel__generator": ^7.6.3
     "@types/jest": ^27.0.3
