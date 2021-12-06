@@ -10,5 +10,3 @@ describe('curry function syntax', () => {
     expect(getParse(`function @@ foo() {}`)()).toMatchSnapshot();
   })
 })
-
-
