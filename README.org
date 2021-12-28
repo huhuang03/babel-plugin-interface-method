@@ -1,5 +1,7 @@
 What I want is translate interface with method to interface with const with method.
 
+Yes, now I think it's very hard, and I will quit maybe.
+
 #+BEGIN_SRC ts
 interface Foo {
     bar: number;
@@ -23,6 +25,13 @@ export const FooMethod {
 #+END_SRC
 
 * TODOS
+** webstorm
+   If the idea use eslint to check the interface. Should I also write an eslint config too?
+
+   After read some eslint-config plugin source code, I didn't see code that add new grammar, can really do this?
+
+** other
+
 Follow the guide, seems we need build babel which I thing output of my knowledge.
 
 Stop because we seems can't build babel-parser for now.
