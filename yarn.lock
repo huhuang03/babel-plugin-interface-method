@@ -320,9 +320,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A.":
+"@babel/parser@portal:../babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@babel/parser@portal:/D:/source/babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."
+  resolution: "@babel/parser@portal:../babel/packages/babel-parser::locator=babel-plugin-interface-method%40workspace%3A."
   bin:
     parser: ./bin/babel-parser.js
   languageName: node
